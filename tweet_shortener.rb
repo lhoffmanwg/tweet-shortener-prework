@@ -12,7 +12,7 @@ def word_substituter(tweet)
     dictionary.fetch(word.downcase, word)
   end  
   .join(" ") 
-  binding.pry
+  #binding.pry
 end  
 
 def bulk_tweet_shortener(tweets_ary)
